@@ -1,4 +1,7 @@
-import { render } from 'preact'
-import { App } from './app.tsx'
+/* @refresh reload */
+import { render } from 'solid-js/web'
+import App from './app'
 
-render(<App />, document.getElementById('app')!)
+const root = document.getElementById('root')
+
+render(() => <App />, root!)

@@ -1,4 +1,4 @@
-export function App() {
+export default function App() {
   return (
     <>
       <h1>Hello, my name is Nazan (aka Nazhard)</h1>
