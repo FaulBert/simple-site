@@ -1,4 +1,4 @@
-export default function App() {
+const Home = () => {
   return (
     <>
       <h1>Hello, my name is Nazan (aka Nazhard)</h1>
@@ -73,3 +73,5 @@ export default function App() {
     </>
   )
 }
+
+export default Home
